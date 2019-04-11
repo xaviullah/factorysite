@@ -1,0 +1,285 @@
+@media (min-width: 1501px) and (max-width: 1800px){
+
+}
+/* large desktop :1366px. */
+@media (min-width: 1366px) and (max-width: 1500px){
+
+}
+
+/* large desktop :1366px. */
+
+@media (min-width: 1200px) and (max-width: 1365px) {
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.header-top .social-link {
+  padding-top: 15px;
+}
+.mainmenu ul li a {
+  padding: 12px 12px !important;
+}
+.single-slide-item h2 {
+  font-size: 55px;
+}
+.slide-aria .owl-dots {
+  left: 30px;
+}
+.service-box-title h2 {
+  font-size: 18px;
+}
+.service-box-content {
+  padding: 50px 11px 11px 11px;
+}
+.bordered-img {
+  top: 42px;
+}
+.about-text {
+  padding: 0;
+}
+.cta-iner h2 {
+  font-size: 16px;
+}
+.cta-iner .boxed-btn {
+  font-size: 13px;
+}
+.team-info p {
+  margin-bottom: 0;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.header-top i.fa.fa-phone {
+  padding-left: 16px;
+}
+.header-top .social-link {
+  padding-top: 15px;
+}
+.mainmenu ul li a {
+  padding-left: 0 !important;
+  transition: 0.3s;
+}
+.mainmenu li:hover > a{
+  padding-left: 17px !important;
+}
+.slide-aria .owl-dots {
+  left: 38px;
+}
+.service-box-title h2 {
+  font-size: 15px;
+  width: 90%;
+}
+.service-box-content {
+  padding-top: 40px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.bordered-img {
+  top: 25%;
+}
+.about-text {
+  padding: 0;
+}
+.cta-iner {
+  padding: 50px 0;
+  text-align: center;
+}
+.cta-iner h2 {
+  font-size: 16px;
+  margin: 0px 0 25px 0;
+}
+.boxed-btn {
+  font-size: 15px;
+}
+.single-team-member {
+  margin-bottom: 30px;
+}
+.footer-about-text, .footer-nav{
+  margin-bottom: 40px;
+}
+.footer-top-padding {
+  padding: 60px 0 50px 0;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+.header-top-address {
+   padding-top: 0px;
+}
+.header-top .social-link {
+  display: none;
+}
+.mainmenu ul li a {
+  padding-left: 0 !important;
+  transition: 0.3s;
+}
+.mainmenu li:hover > a{
+  padding-left: 17px !important;
+}
+.single-slide-item h2 {
+  font-size: 40px;
+}
+.single-slide-item {
+  height: 500px;
+}
+.slide-aria .owl-dots {
+  left: 33px;
+  bottom: 60px;
+}
+.service-box-bg {
+  background-position: center top;
+}
+.single-service-box {
+  margin-bottom: 35px;
+}
+.about-text {
+  text-align: center;
+  padding-bottom: 0;
+}
+.bordered-img img {
+  width: 100%;
+}
+.cta-iner {
+  padding: 50px 0;
+  text-align: center;
+}
+.cta-iner h2 {
+  font-size: 16px;
+  margin: 0px 0 25px 0;
+  line-height: 2;
+}
+.boxed-btn {
+  font-size: 15px;
+}
+.single-team-member {
+  margin-bottom: 35px;
+}
+.footer-about-text .social-link {
+  display: block;
+}
+.footer-about-text, .footer-nav, .footer-blog{
+  margin-bottom: 40px;
+}
+.footer-top-padding {
+  padding: 60px 0 50px 0;
+}
+.email-subcription button {
+  width: auto;
+}
+
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px){
+.header-top {
+  font-size: 13px;
+}
+.header-top i.fa.fa-phone {
+  padding-left: 12px;
+}
+.social-link a {
+  display: inline-block;
+  margin: 0 0px 0px 5px;
+}
+.header-top-address {
+  padding-bottom: 5px;
+}
+.social-link {
+  padding-top: 15px;
+}
+.footer-about-text .site-logo {
+  font-size: 14px;
+  margin: 20px 0 20px 0;
+}
+.single-slide-item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.single-slide-item {
+  font-size: 12px;
+  height: 400px;
+}
+.boxed-btn {
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px 15px;
+}
+.slide-aria .owl-dots {
+  left: 15px;
+  bottom: 58px;
+}
+.slide-aria .owl-dots button {
+  height: 20px;
+}
+.slide-aria .owl-dots button.active {
+  height: 25px;
+}
+.single-service-box {
+  margin-bottom: 30px;
+}
+.about-text {
+  text-align: center;
+  padding-bottom: 0;
+}
+.about-text p {
+  text-align: justify;
+}
+.cta-iner h2 {
+  font-size: 15px;
+  text-align: center;
+  line-height: 2;
+}
+.cta-aria .boxed-btn {
+  margin: 0px 25%;
+}
+.cta-iner {
+  padding: 40px 0;
+}
+.single-team-member {
+  margin-bottom: 30px;
+}
+.section-hading h2 {
+  font-size: 20px;
+}
+.single-project-item {
+  padding-left: 140px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.project-bg {
+  width: 125px;
+}
+.single-project-item h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.section-padding {
+  padding: 70px 0 0 0;
+}
+.space-80 {
+  height: 65px;
+}
+.about-aria.section-padding {
+  padding-bottom: 65px;
+}
+.footer-top-padding {
+  padding: 50px 0 50px 0;
+}
+.copy-right-text {
+  padding: 20px 0;
+}
+.footer-about-text, .footer-nav, .footer-blog {
+  margin-bottom: 30px;
+}
+
+}
+
